@@ -1,62 +1,65 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Twenty Seconds Curriculum Vitae in LaTex
-% ****************************************
-% 
-% License: MIT
-%
-% For further information please visit:
-% https://github.com/spagnuolocarmine/TwentySecondsCurriculumVitae-LaTex
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[]{twentysecondcv}
+
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%
-%% PROFILE SIDE BAR %%
-%%%%%%%%%%%%%%%%%%%%%%
-% personal info
-\profilepic{alice.jpeg}          % path of profile pic
-\cvname{Alice}                   % your name
-\cvjobtitle{Adventurer}          % your actual job position
-\cvdate{26 November 1865}        % date of birth
-\cvaddress{United Kingdom}       % address
-\cvnumberphone{+39 0325658974}   % telephone number
-\cvmail{alice@wonderland.com}    % e-mail
-\cvsite{http://en.wikipedia.org} % personal site
+%%%%%%%%%%%%%%%%%
+%%PROFILE SIDE BAR%%
+%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%
+%%PERSONAL INFO%%%
+%%%%%%%%%%%%%%%%
+
+\cvname{Rubén Hernández} %your name
+\cvjobtitle{Software Engineer}%your actual job position
+\cvdate{May 19}%date of birth
+\cvaddress{Mexico}%address
+\cvnumberphone{+52 81 8088 5799}%telphone number
+\cvmail{rahernandezgon@gmail.com}%e-mail
+\cvsite{https://www.linkedin.com
+/in/RubenHernandezGon}%personal site
+
 
 \aboutme{
 
-Alice is a sensible prepubescent girl from a wealthy English family who finds herself in a strange world ruled by imagination and fantasy. Alice feels comfortable with her identity and has a strong sense that her environment is comprised of clear, logical, and consistent rules and features. Alice's familiarity with the world has led one critic to describe her as a "disembodied intellect". Alice displays great curiosity and attempts to fit her diverse experiences into a clear understanding of the world.
-} % About me section
+I like reaching new solutions by applying the knowledge and skills I acquired during the research I have done previously. Marketability and user satisfaction are the areas I would love to keep improving in the projects I work on.}%About me section
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%% Skill bar section, each skill must have a value between 0 an 6 (float) %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\skills{{pursuer of rabbits/5},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill bar section, each skill must have a value between 0 an 6 (float)%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skills{{Emotional Intelligence/4.8},{Creativity/4.4},{Analytic/4.2},{Written and Oral Communication/3.2},{Conflict resolution skills/4}}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%Skill text section, each skill must have a value between 0 an 6%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\skillstext{{lovely/4},{narcissistic/3}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill bar section, each skill must have a value between 0 an 6 (float)%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\languages{{Spanish (Native)/5}, {English (IELTS 6.5)/4.5}, Japanese (Basic)/0.8}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%Skill text section, each skill must have a value between 0 an 6%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\skillstext{{Data Analysis/4},{Code Validation/5},{Working Remotely/8}}
 
 \makeprofile
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% END PROFILE SIDE BAR %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+%%END PROFILE SIDE BAR%%
+%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%
-%%%%%% BODY %%%%%%
-%%%%%%%%%%%%%%%%%%
-% Simple Section
+%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%BODY%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%
+%%SIMPLE SECTION%%%%%%
+%%%%%%%%%%%%%%%%%%%%
 \section{interests}
 The heroine and the dreamer of Wonderland;  Alice is the principal character.
 
 \section{education}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%% TWENTY LIST ITEMS %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%TWENTY LIST ITEMS%%%%%%%%%%%%%%
 %%    Four arguments: date; title; where; description %%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{twenty}
   \twentyitem
     {since 1865}
@@ -80,11 +83,13 @@ The heroine and the dreamer of Wonderland;  Alice is the principal character.
     {Specializing in mathematics and physics.}
 \end{twenty}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%TWENTY LIST SHORTITEMS %%%%%%%%%%%%%
-%%% Two arguments: date; title/description %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%TWENTY LIST SHORTITEMS%%%%%%%%%%%%%%
+%%% Two arguments: date; title/description %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{publications}
+
 \begin{twentyshort}
   \twentyitemshort
     {1865}
@@ -103,7 +108,10 @@ The heroine and the dreamer of Wonderland;  Alice is the principal character.
     {Chapter Five,  Advice from a Caterpillar.}
 \end{twentyshort}
 
+
+
 \section{awards}
+
 \begin{twentyshort}
   \twentyitemshort
     {1987}
@@ -113,7 +121,9 @@ The heroine and the dreamer of Wonderland;  Alice is the principal character.
     {All-Time Best Fantasy Novel before 1990.}
 \end{twentyshort}
 
+
 \section{experience}
+
 \begin{twenty}
   \twentyitem
     {1900}
@@ -136,6 +146,7 @@ The heroine and the dreamer of Wonderland;  Alice is the principal character.
 Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a “poky little house,” and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
 
 %%%%%%%%%%%%%%%%%%%%
-%%%%% ENDBODY %%%%%%
+%%%%%ENDBODY%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%
+
 \end{document} 
