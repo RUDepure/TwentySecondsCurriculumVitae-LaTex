@@ -50,9 +50,10 @@
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB0B00}
 \definecolor{blue}{HTML}{6CE0F1}
-\definecolor{mainblue}{HTML}{0E5484}
+\definecolor{mainblue}{HTML}{4682B4}
 \definecolor{cerulean}{HTML}{007BA7}
 \definecolor{maingray}{HTML}{B9B9B9}
+\definecolor{cadetblue}{HTML}{5F9EA0}
 \definecolor{maindarkgray}{HTML}{B3B3B3}
 \ifdefined\@cv@print
   \colorlet{green}{gray}
@@ -251,11 +252,11 @@
   {%
    \round{#1#2#3}{
       \ifcase\value{colorCounter}%
-        maingray\or%
+        cadetblue\or%
         mainblue\or%
-        maingray\or%
+        cadetblue\or%
         mainblue\else%
-        maingray\fi%
+        cadetblue\fi%
     }%
   }%
   \stepcounter{colorCounter}%
